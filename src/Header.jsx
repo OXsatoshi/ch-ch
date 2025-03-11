@@ -1,16 +1,18 @@
+import { ImHome } from "react-icons/im";
 export default function Header() {
   return (
     <header>
       <div className="left-header">
-        <img src="mdn.png" alt="" />
-      </div>
-      <div className="text-area">
-        <h1> République Algérienne Démocratique et Populaire</h1>
-        <h1>Minister de la deffence nationale</h1>
-        <h1>Direction de la service nationale </h1>
+        <img src="../banniere_fr.png" />
       </div>
       <div className="right-header">
-        <img src="mdn.png" alt="" />
+        <div className="home">
+          <ImHome size={50} color="white" />
+        </div>
+
+        <div className="e">AR</div>
+
+        <div className="e">EN</div>
       </div>
     </header>
   );

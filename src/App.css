@@ -37,5 +37,65 @@ header .text-area {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-image: url("../image.webp");
+}
+header .left-header img {
+  width: 60%;
+}
+header .left-header {
+  width: 100%;
+}
+header div.right-header {
+  display: flex;
+  gap: 40px;
+  margin-right: 50px;
+}
+header div.right-header div {
+  width: 80px;
+  background-color: #008756;
+  height: 80px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+header div.right-header div:hover {
+  transform: scale(1.2);
+}
+header div.right-header div {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .image-holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-content .image-holder img {
+  width: 75%;
+  z-index: 0;
+  position: absolute;
+  top: 1rem;
+  filter: blur(4px);
+  height: 75%;
+}
+.honor {
+  z-index: 1;
+  color: black;
+  position: absolute;
+  top: 20rem;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 5px;
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: center;
 }
