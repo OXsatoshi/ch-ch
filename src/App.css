@@ -99,3 +99,8 @@ header div.right-header div {
   align-items: center;
   justify-content: center;
 }
+.main-content .image-holder button {
+  z-index: 1;
+  width: 5rem;
+  height: 3rem;
+}

@@ -7,6 +7,7 @@ export default function MainContent() {
           <h1>SERVICE NATIONAL</h1>
           <h1>DEVOIR,HONNEUR,FORMATION</h1>
         </div>
+        <button>Passer</button>
       </div>
     </div>
   );
